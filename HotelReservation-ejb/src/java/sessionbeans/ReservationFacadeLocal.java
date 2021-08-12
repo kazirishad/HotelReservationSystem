@@ -11,7 +11,7 @@ import models.Reservation;
 
 /**
  *
- * @author Houari
+ * @author KaziRishad
  */
 @Local
 public interface ReservationFacadeLocal {
