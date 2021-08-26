@@ -3,7 +3,7 @@ DROP DATABASE IF EXISTS hotel_reservation_system;
 
 CREATE DATABASE hotel_reservation_system;
 
-USE hotel_reservation_system
+USE hotel_reservation_system;
 
 CREATE TABLE room (
 	id INT PRIMARY KEY AUTO_INCREMENT,
