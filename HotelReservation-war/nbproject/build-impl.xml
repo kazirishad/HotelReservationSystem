@@ -23,7 +23,7 @@
         <condition>
             <not>
                 <antversion atleast="1.7.1"/>
-            <not>
+            </not>
         </condition>
     </fail>
     <target depends="dist,javadoc" description="Build whole project." name="default"/>
