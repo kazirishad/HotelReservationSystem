@@ -8,7 +8,7 @@ import models.Reservation;
 @Stateless
 public class ReservationFacade extends AbstractFacade<Reservation> implements ReservationFacadeLocal {
 
-    @PersistenceContext(unitName = "HotelReservation-ejbPU")
+    @PersistenceContext(unitName = "HotelReservation-ejbPU0")
     private EntityManager em;
 
     @Override
