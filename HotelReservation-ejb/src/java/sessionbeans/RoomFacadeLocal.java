@@ -19,6 +19,6 @@ public interface RoomFacadeLocal {
 
     List<Room> findRange(int[] range);
 
-    int count();
+    int count(1);
     
 }
