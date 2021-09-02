@@ -166,7 +166,7 @@ public class Reservation implements Serializable {
 
     @Override
     public String toString() {
-        return "models.Reservation[ id=" + id +0 " ]";
+        return "models.Reservation[ id=" + id + " ]";
     }
     
 }
