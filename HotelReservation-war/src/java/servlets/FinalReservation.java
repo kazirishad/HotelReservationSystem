@@ -30,7 +30,7 @@ public class FinalReservation extends HttpServlet {
         String specialRequest = request.getParameter("specialRequest");
         
         try {
-            String sql = "INSERT INTO reservation VALUES (null, ?, ?, ?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO reservation VALUES (null, ?, ?, ?, ?, ?, ?, ?0)";
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel_reservation_system?useSSL=false&serverTimezone=UTC", "root", "root");
             PreparedStatement prest = con.prepareStatement(sql);
             prest.setInt(1, idRoom);
