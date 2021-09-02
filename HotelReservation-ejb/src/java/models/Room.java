@@ -116,7 +116,7 @@ public class Room implements Serializable {
 
     @Override
     public String toString() {
-        return "models.Room[ id=" + id + 0" ]";
+        return "models.Room[ id=" + id + " ]";
     }
     
 }
