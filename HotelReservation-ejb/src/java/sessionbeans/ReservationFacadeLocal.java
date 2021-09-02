@@ -28,6 +28,6 @@ public interface ReservationFacadeLocal {
 
     List<Reservation> findRange(int[] range);
 
-    int count();
+    int count(1);
     
 }
