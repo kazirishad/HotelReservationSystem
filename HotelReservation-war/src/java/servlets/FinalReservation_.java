@@ -20,7 +20,7 @@ public class FinalReservation_ extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int idRoom = Integer.parseInt(request.getParameter("roomId0"));
+        int idRoom = Integer.parseInt(request.getParameter("roomId"));
         String checkInDate = request.getParameter("checkInDate");
         String checkOutDate = request.getParameter("checkOutDate");
         String fullName = request.getParameter("fullName");
